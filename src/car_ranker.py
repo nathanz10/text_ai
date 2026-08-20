@@ -6,7 +6,7 @@ fields using Qwen3-VL via Ollama, scores each listing against your criteria,
 and writes everything to an .xlsx sorted best-to-worst.
 
 Usage:
-    python car_ranker.py --input Screenshots --output output/cars.xlsx
+    python src/car_ranker.py --input data/screenshots --output output/cars.xlsx
 """
 
 import argparse

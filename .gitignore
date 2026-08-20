@@ -1,0 +1,12 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Generated ranking workbooks
+output/*.xlsx
+
+# Local Ollama and editor artifacts
+.env
+.vscode/
